@@ -2,13 +2,13 @@ import firebase from 'firebase';
 import { ref, onUnmounted } from 'vue'
 
 var firebaseConfig = {
-  apiKey: "AIzaSyC2BW9yA2Ap1IGxqJ7fq_lmm9_pqINfMZ8",
-  authDomain: "vue-crud-lat.firebaseapp.com",
+  apiKey: "",
+  authDomain: "",
   projectId: "vue-crud-lat",
-  storageBucket: "vue-crud-lat.appspot.com",
-  messagingSenderId: "954863918277",
-  appId: "1:954863918277:web:db6f2dc95183565bf7e4ac",
-  measurementId: "G-Y9VLQXFTDH"
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
